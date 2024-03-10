@@ -1,0 +1,436 @@
+.donation-container{
+    width: 100%;
+    background: #f1f1f1;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* HEADING SECTION STYLING STARTS HERE */
+.donation-header{
+    width: 90%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.donation-text{
+    height: 80%;
+    width: 75%;
+}
+.donation-text a{
+    padding: 10px 15px;
+    background: #39c489;
+    color: #e5e5e5;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1%;
+    margin-top: 80px;
+    border-radius: 8px;
+}
+.donation-text h2{
+    font-size: 80px;
+    color: #0f49b5;
+    margin-top: 40px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    line-height: 108.48px;
+    font-family: "Darker Grotesque", sans-serif;
+}
+.donation-text p{
+    font-size: 20px;
+    letter-spacing: 1%;
+    line-height: 32px;
+    font-weight: 700;
+    color: #585858;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.donate-image{
+    width: 400px;
+    height: 90%;
+    margin-top: 50px;
+}
+/* HEADING SECTION STYLING ENDS HERE */
+
+
+
+/* REASON SECTION STYLING STARTS HERE */
+.donation-reason{
+    width: 90%;
+    margin: 20px auto;
+}
+.donation-reason h4{
+    width: 270px;
+    color: #0E49b5;
+    font-family: "Darker Grotesque", sans-serif;
+}
+.donation-reason p{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 32px;
+    width: 100%;
+    height: 128px;
+    letter-spacing: 1%;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+/* REASON SECTION STYLING ENDS HERE */
+
+/* PROJECT SECTION STYLING STARTS HERE */
+.donation-projects{
+    width: 90%;
+    margin: 30px auto;
+}
+.donation-projects   h2{
+    width: 221px;
+    border-radius: 8px;
+    padding: 15px 48px;
+    margin-bottom: 20px;
+    background: #39c489;
+    color: #f1f1f1;
+    text-align: center;
+    font-family: "Darker Grotesque", sans-serif;
+}
+.project-cards{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.card{
+    background: #f1f1f1;
+    width: 33.3%;
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+.card-img, .card-desc{
+    height: 300px;
+    width: 100%;
+}
+.card-desc{
+    height: 200px;
+}
+.card-desc h5{
+   margin: 15px 0 20px 15px; 
+   color: #0E49b5;
+   font-size: 2rem;
+   line-height: 30px;
+   font-weight: 700;
+   font-family: "Darker Grotesque", sans-serif;
+}
+.card-desc p{
+    margin: 20px 5px 20px 15px ;
+    color: #585858;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+.card-desc a{
+    color: #0E49b5;
+    border: 1px solid #0f49b5;
+    font-size: 1.5rem;
+    margin: 15px;
+    padding: 10px 8px;
+    font-family: "Poppins", sans-serif;
+}
+/* PROJECT SECTION STYLING ENDS HERE */
+
+
+
+/* MONETARY DONATION SECTION STYLING STARTS HERE */
+.monetary-donations{
+    margin-top: 30px;
+    width: 100%;
+    background: #0E49b5;
+    padding: 20px 0 20px 0;
+}
+.monetary-donation-container{
+    width: 90%;
+    margin: 15px auto;
+}
+.monetary-donation-container h4{
+    font-size: 3rem;
+    color: #f1f1f1;
+    position: relative;
+    margin: 25px 0 15px 0;
+    font-weight: 700;
+    width: 445px;
+    font-family: "Darker Grotesque", sans-serif;
+}
+.monetary-donation-container h4::after, .support-list h3::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: -5px;
+    background: #f1f1f1;
+    height: 2px;
+    left: 0;
+}
+.monetary-donation-container p{
+    color: #f1f1f1;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+/* MONETARY DONATION SECTION ENDS HERE */
+
+
+
+/* SUPPORT SECTION STYLING STARTS HERE */
+.donation-support{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    gap: 15px;
+}
+
+.support-list{
+    width: 50%;
+    margin-top: 50px;
+}
+.support-list h3{
+    width: 320px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75.94px;
+    color: #0E49b5;
+    position: relative;
+    font-family: "Darker Grotesque", sans-serif;
+}
+.support-list h3::after{
+    background: #0E49b5;
+}
+.support-list ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.support-list ul li{
+    display: flex;
+    margin-top: 40px;
+}
+.support-list ul li .dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #39c489;
+    margin-top: 10px;
+}
+.support-list ul li .list-desc{
+    margin-left: 15px;
+}
+.support-list ul li .list-desc h4{
+    color: #0E49b5;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 32.54px;
+    font-family: "Darker Grotesque", sans-serif;
+}
+.support-list ul li .list-desc p{
+    width: 280px;
+    color: #0E49b5;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22.8px;
+    font-family: "Poppins", sans-serif;
+}
+.support-payment{
+    width: 50%;
+    padding: 10px;
+    background: #0E49b5;
+    margin: 20px 0;
+}
+.support-payment h3{
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32.54px;
+    text-align: center;
+    margin: 15px 0;
+    color: #f1f1f1;
+}
+.payment-plan{
+    width: 100%;
+}
+.interval{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.payment-plan span{
+    width: 50%;
+    background: #f1f1f1;
+    color: #1a1a1a;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #b4b4b4;
+    font-family: "Poppins", sans-serif;
+    transition: .5s;
+}
+.payment-plan span.active{
+    background: #39c489;
+    color: #f1f1f1;
+}
+.amount{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.amount p{
+    width: 25%;
+    font-family: "Poppins", sans-serif;
+}
+.payment-info{
+    margin: 50px 0;
+    width: 100%;
+}
+.support-payment h4{
+    color: #f1f1f1;
+    font-weight: 700;
+    position: relative;
+    margin: 30px 0;
+    font-size: 24px;
+    font-family: "Darker Grotesque", sans-serif;
+}
+.support-payment h4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: #f1f1f1;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+}
+.card-info{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding-top: 15px ;
+}
+.card-date{
+    width: 50%;
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+.card-date input{
+    width: 30%;
+    height: 45px;
+}
+.card-number{
+    position: relative;
+    width: 50%;
+}
+.card-number input{
+    height: 45px;
+    width: 100%;
+}
+.supporter-info{
+    margin: 20px 0;
+    width: 100%;
+}
+.supporter-info .info-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    gap: 20px;
+    padding-top: 15px;
+}
+.info-wrapper .details{
+    position: relative;
+    padding: 10px 0;
+}
+.info-wrapper .details input{
+    height: 40px;
+    width: 100%;
+}
+.details input[type="checkbox"]{
+    width: unset;
+    height: unset;
+    background: #000;
+}
+.supporter-info .info-wrapper .checkbox{
+    width: 100%;
+    display: flex;
+}
+.check input[type='checkbox']{
+    height: unset;
+    width: unset;
+    background: #000;
+}
+
+.check span, .agree span{
+    color: #b4b4b4;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    margin-left: 8px;
+}
+.agree{
+    width: 100%;
+}
+/* SUPPORT SECTION STYLING ENDS HERE */
+
+
+/* SUBSCRIBE SECTION STARTS HERE */
+.subscribe{
+    width: 100%;
+    background: #0E49b5;
+    height: 300px;
+}
+.subscribe-wrapper{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+.subscribe-btn{
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    height: 50%;
+    align-items: center;
+}
+.subscribe-btn button{
+    width: unset;
+    height: unset;
+    padding: 17px 13px;
+    margin-top: 15px;
+}
+.subscribe-btn h3{
+    color: #f1f1f1;
+    margin: 10px 0;
+    font-size: 2rem;
+}
+.subscribe-btn p{
+    color: #b4b4b4;
+}
+.subscribe-input{
+    width: 40%;
+}
+.subscribe-input .mail-input{
+    width: 100%;
+    display: flex;
+    gap: 2px;
+}
+.subscribe-input .mail-input input{
+    width: 80%;
+    border-radius: 0px;
+    background: #f1f1f1;
+    height: 65px;
+}
+.subscribe-input .mail-input button{
+    width: unset;
+    height: unset;
+    padding: 26px 32px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
