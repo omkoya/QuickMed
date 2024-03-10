@@ -1,6 +1,6 @@
-import Navigation from "./Navigation";
+import Navigation from "./components/Navigation";
 // import Donations from '../pages/Donations'
-import About from '../pages/About'
+import About from './pages/About'
 
 
 function App() {
