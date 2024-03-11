@@ -1,5 +1,6 @@
+import { Route, Routes } from "react-router";
 import Navigation from "./components/Navigation";
-// import Donations from '../pages/Donations'
+import Donations from './pages/Donations'
 import About from './pages/About'
 
 
@@ -10,8 +11,15 @@ function App() {
     <>
       <Navigation />
 
-      {/* <Donations /> */}
-      <About />
+      <Routes>
+
+        <Route path="about" element = { <About /> }> </Route>
+
+        <Route path="/donation" element = { <Donations /> }> </Route>
+
+      </Routes>
+      
+      
     </>
     
     

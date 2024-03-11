@@ -6,7 +6,7 @@ import Linkedin from '../assets/icons/linkedin.png'
 import Insta from '../assets/icons/insta.png'
 import Twitter from '../assets/icons/twitter.png'
 import Gmail from '../assets/icons/gmail.png'
-import Bkgrd from '../assets/about/bus1.png'
+import Bkgrd from '../assets/about/bus.jpg'
 
 const Footer = () => {
   return (
