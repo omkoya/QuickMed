@@ -1,0 +1,109 @@
+:root{
+    /* primary color variants */
+    --pri-10 : #ECF2FC;
+    --pri-20 : #C7D5F0;
+    --pri-30 : #9BB9EE;
+    --pri-40 : #5E86CE;
+    --pri-50 : #3667C1;
+    --pri-60 : #0E49B5;
+    --pri-70 : #0C3D97;
+    --pri-80 : #093179;
+    --pri-90 : #07245A;
+    --pri-100 : #05183C;
+    --pri-110 : #030F24;
+
+    /* secondary color variants */
+    --sec-10 : #F3FEF9;
+    --sec-20 : #D8FEEE;
+    --sec-30 : #B0F5D8;
+    --sec-40 : #83F2C3;
+    --sec-50 : #64EEB4;
+    --sec-60 : #45EBA5;
+    --sec-70 : #39C489;
+    --sec-80 : #2E9D6E;
+    --sec-90 : #227552;
+    --sec-100 : #174E37;
+    --sec-110 : #0E2F21;
+
+    /* grey color variants */
+    --gre-10 : #FFFFFF;
+    --gre-20 : #F1F1F1;
+    --gre-30 : #D6D6D6;
+    --gre-40 : #C1C1C1;
+    --gre-50 : #ADADAD;
+    --gre-60 : #999999;
+    --gre-70 : #848484;
+    --gre-80 : #6E6E6E;
+    --gre-90 : #585858;
+    --gre-100 : #424242;
+    --gre-110 : #2C2C2C;
+    --gre-120 : #1A1A1A;
+
+
+    /*text emphasis*/
+    --text-h : #2C2C2C;
+    --text-m :#585858;
+    --text-l : #999999;
+    --card-outline : #848484;
+    --card-bg: #FFFFFF;
+
+    --margin: 10vw;
+}
+
+@media screen and (min-width:1439px) {
+    :root{
+        --margin: calc(( 100% - 1270px ) / 2 )
+    }
+}
+
+html {
+  font-size: calc(10px + 1vmin) !important;
+}
+
+
+
+/* h1 */
+h1 {
+  font-size: 2.55rem !important; /* Base font size for h1 */
+}
+/* h2 */
+h2 {
+  font-size: 2.25rem !important; /* Base font size for h2 */
+}
+/* h3 */
+h3 {
+  font-size: 1.75rem !important; /* Base font size for h3 */
+}
+/* h4 */
+h4 {
+  font-size: 1.5rem !important; /* Base font size for h4 */
+}
+/* h5 */
+h5 {
+  font-size: 1.25rem !important; /* Base font size for h5 */
+}
+/* h6 */
+h6 {
+  font-size: 1.125rem !important; /* Base font size for h6 */
+}
+/* p */
+p {
+  font-size: 1rem !important; /* Base font size for paragraphs */
+}
+/* small */
+small {
+  font-size: 0.5rem !important; /* Base font size for small text */
+}
+/* button */
+button {
+  font-size: 1.125rem !important; /* Base font size for buttons */
+}
+
+.button{
+    padding: 8px 20px;
+    background: #39c489;
+    border-radius: 6px;
+    color: var(--gre-10);
+    white-space: nowrap;
+}
+

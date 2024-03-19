@@ -1,0 +1,52 @@
+@import './base.css';
+
+.blog-card{
+    max-width: 344px;
+    border-radius: 20px;
+    border: 0.5px solid var(--card-outline);
+    background-color: var(--card-bg);
+    overflow: hidden;
+}
+
+.blog-card-img-top{
+    width:100%;
+    height:50%;
+}
+
+.blog-card-body{
+    padding: 20px;
+}
+
+.blog-card-body > *:not(.blog-card-tag){
+    margin-top: 16px;
+}
+
+.blog-card-tag{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-card-tag small{
+    display: block;
+    width: fit-content;
+    text-transform: uppercase;
+    color: var(--text-l);
+}
+
+.blog-card-title{
+    color: var(--text-h);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.blog-card-text{
+    color: var(--text-m);
+    max-height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
