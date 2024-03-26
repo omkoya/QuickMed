@@ -2,7 +2,8 @@ import { Route, Routes } from "react-router";
 import Navigation from "./components/Navigation";
 import Donations from './pages/Donations'
 import About from './pages/About'
-
+import { Home } from "./pages/home";
+import Footer from '../src/components/Footer';
 
 function App() {
 
@@ -12,13 +13,14 @@ function App() {
       <Navigation />
 
       <Routes>
-
-        <Route path="about" element = { <About /> }> </Route>
+        <Route path="/" element = { <Home /> }> </Route>
+        <Route path="/about" element = { <About /> }> </Route>
 
         <Route path="/donation" element = { <Donations /> }> </Route>
 
       </Routes>
       
+      <Footer />
       
     </>
     

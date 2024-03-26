@@ -1,16 +1,18 @@
+@import './base.css';
 .navigation{
    width: 100%;
    background: #0E49B5;
-   height: 100px;
+   height: fit-content;
    display: flex;
    justify-content: center;
    align-items: center;
-   position: sticky;
+   position: fixed;
    top: 0;
    z-index: 999;
+   padding:  16px var(--margin);
 }
 .navLinks{
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -18,15 +20,17 @@
     margin: 0 auto;
 }
 .logo{
-    width: 80px;
-    height: 60px;
+    height: 48px;
+    width: auto;
+    object-fit: unset;
+    -o-object-fit: unset;
 }
 .links{
-    width: 50%;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap:8px
 }
 .links .button{
     padding: 8px 20px;
@@ -42,4 +46,12 @@
 }
 .links li.active a{
     color: #39c489;
+}
+
+
+/* media quary for smaller screens */
+@media screen and (max-width:640px) {
+    .links > li:not(.button){
+        display: none;
+    }
 }

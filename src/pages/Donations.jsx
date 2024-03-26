@@ -33,10 +33,6 @@ const Donations = () => {
       <section>
         <Subscribe />
       </section>
-
-      <section>
-        <Footer />
-      </section>
     </>
     
   )

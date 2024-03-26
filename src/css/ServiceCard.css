@@ -1,0 +1,20 @@
+@import './base.css';
+
+.home-service-card{
+    padding: 20px;
+    max-width: 338px;
+    box-shadow: 6px 6px 20px 0 rgba(0,0,0,0.12);
+    border-radius: 12px;
+}
+
+.home-service-card > *:not(.home-service-card-count){
+    margin-top: 16px;
+}
+
+.home-service-card-title{
+    color:var(--pri-60);
+}
+
+.home-service-card-text{
+    color: var(--text-m);
+}
