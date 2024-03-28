@@ -1,0 +1,224 @@
+.partnership .partnership-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    min-height: 100vh;
+    background-color: #0E49B5;
+    color: #E5E5E5;
+    position: relative;
+}
+
+.partnership .partnership-container .title {
+    display: flex;
+    gap: 8rem;
+    width: 70%;
+    color: #E5E5E5;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.partnership .partnership-container .title h1,
+.partnership .partnership-container .title-cont h1 {
+    font-size: 4.5rem;
+}
+
+.partnership .partnership-container .title h1:nth-child(2) {
+    color: #39c489;
+    border: 1px solid #E5E5E5;
+    padding: 0.2rem 2rem;
+    border-radius: 3rem;
+}
+
+.partnership .partnership-container .title-cont {
+    width: 70%;
+    color: #E5E5E5;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.partnership .partnership-container .title-cont p {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    line-height: 1.8;
+    font-weight: 600;
+}
+
+.partnership .partnership-container button {
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/* WHY PARTNER WITH US */
+
+.why {
+    width: 80%;
+    margin: auto;
+}
+
+.why .why-container {
+    padding: 100px 0;
+}
+
+.why .why-container h4 {
+    text-transform: uppercase;
+    color: #474747a4;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.why .why-container h1 {
+    font-size: 3rem;
+    width: 50%;
+    color: #0E49B5;
+    margin-bottom: 1rem;
+}
+
+.why .why-container p {
+    width: 50%;
+    color: #474747;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.why .items {
+    display: flex;
+    align-items: center;
+}
+
+.why .items .itemss {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.why .items .itemss .item {
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 3px #e5e5e5;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.why .items .itemss img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.why .items .itemss .img img {
+    height: 12rem;
+}
+
+.why .items .imag {
+    margin-bottom: 1.5rem;
+}
+
+.why .items .item .icon {
+    margin-bottom: 0.5rem;
+    color: #0E49B5;
+    font-size: 3rem;
+}
+.why .items .item h3 {
+    color: #0E49B5;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.why .items .item p {
+    width: 100%;
+    line-height: 1.8;
+    font-size: 0.9rem;
+    color: #474747ae;
+}
+
+@media (max-width: 900px) {
+    .partnership .partnership-container {
+        min-height: 70vh;
+    }
+    
+    .partnership .partnership-container .title h1,
+    .partnership .partnership-container .title-cont h1 {
+        font-size: 1.8rem;
+    }
+
+    .partnership .partnership-container .title,
+    .partnership .partnership-container .title-cont {
+        width: 90%;
+    }
+
+    .partnership .partnership-container .title h1:nth-child(2) {
+        padding: 0.2rem 0.7rem;
+    }
+
+    .partnership .partnership-container .title {
+        gap: 4rem;
+    }
+
+    .partnership .partnership-container .title-cont h1 {
+        margin-bottom: 1rem;
+    }
+
+    .partnership .partnership-container .title-cont p {
+        width: 100%;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+   /* WHY PARTNER WITH US */ 
+
+   .why .why-container h1 {
+    width: 100%;
+    font-size: 2rem;
+   }
+}
+
+/* FEATURED PARTNERS */
+
+.feature {
+    width: 80%;
+    margin: auto;
+}
+
+.feature .feature-container {
+    padding: 100px 0;
+}
+
+.feature .feature-container h2 {
+    text-align: center;
+    color: #0E49B5;
+    font-size: 3rem;
+}
+
+.feature .feature-container .things {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.feature .feature-container .things .thing {
+    box-shadow: 3px 3px 3px 3px #e5e5e5;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+}
+
+.feature .feature-container .things .thing img {
+    width: 8rem;
+}
+
+.feature .feature-container .things .thing h3 {
+    color: #0E49B5;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
