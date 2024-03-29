@@ -63,21 +63,23 @@ html {
 
 
 /* h1 */
-h1 {
-  font-size: 2.55rem !important; /* Base font size for h1 */
-}
+
+/* h1 {
+  font-size: 2.55rem !important;
+} */
+
 /* h2 */
-h2 {
-  font-size: 2.25rem !important; /* Base font size for h2 */
-}
+/* h2 {
+  font-size: 2.25rem !important;
+} */
 /* h3 */
-h3 {
-  font-size: 1.75rem !important; /* Base font size for h3 */
-}
+/* h3 {
+  font-size: 1.75rem !important;
+} */
 /* h4 */
-h4 {
-  font-size: 1.5rem !important; /* Base font size for h4 */
-}
+/* h4 {
+  font-size: 1.5rem !important;
+} */
 /* h5 */
 h5 {
   font-size: 1.25rem !important; /* Base font size for h5 */
@@ -87,9 +89,9 @@ h6 {
   font-size: 1.125rem !important; /* Base font size for h6 */
 }
 /* p */
-p {
-  font-size: 1rem !important; /* Base font size for paragraphs */
-}
+/* p {
+  font-size: 1rem !important;
+} */
 /* small */
 small {
   font-size: 0.5rem !important; /* Base font size for small text */
