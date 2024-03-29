@@ -186,7 +186,7 @@
 /* FEATURED PARTNERS */
 
 .feature {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -201,6 +201,7 @@
 }
 
 .feature .feature-container .things {
+    border: 1px solid #000;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -210,11 +211,14 @@
     box-shadow: 3px 3px 3px 3px #e5e5e5;
     border-radius: 10px;
     padding: 1rem;
-    width: 100%;
+    /* width: 40%; */
+    border: 1px solid #000;
 }
 
 .feature .feature-container .things .thing img {
-    width: 8rem;
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
 }
 
 .feature .feature-container .things .thing h3 {
